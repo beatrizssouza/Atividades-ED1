@@ -5,107 +5,105 @@ void extenso(int dia, int mes, char*d,char*m){
 
 
     int op= mes;
-    while (op == 0 || op > 12)
-    {
+    
         switch(op){
 
-            case 1: strcpy(*m,"Janeiro");
+            case 1: strcpy(m,"Janeiro");
                     break; 
-            case 2: strcpy(*m,"Fevereiro");
+            case 2: strcpy(m,"Fevereiro");
                     break; 
-            case 3: strcpy(*m,"Março");
+            case 3: strcpy(m,"Março");
                     break;
-            case 4: strcpy(*m,"Abril");
+            case 4: strcpy(m,"Abril");
                     break; 
-            case 5: strcpy(*m,"Maio");
+            case 5: strcpy(m,"Maio");
                     break;  
-            case 6: strcpy(*m,"Junho");
+            case 6: strcpy(m,"Junho");
                     break; 
-            case 7: strcpy(*m,"Julho");
+            case 7: strcpy(m,"Julho");
                     break; 
-            case 8: strcpy(*m,"Agosto");
+            case 8: strcpy(m,"Agosto");
                     break; 
-            case 9: strcpy(*m,"Setembro");
+            case 9: strcpy(m,"Setembro");
                     break; 
-            case 10: strcpy(*m,"Outubro");
+            case 10: strcpy(m,"Outubro");
                     break; 
-            case 11: strcpy(*m,"Novembro");
+            case 11: strcpy(m,"Novembro");
                     break; 
-            case 12: strcpy(*m,"Dezembro");
+            case 12: strcpy(m,"Dezembro");
                     break; 
         }
-    }
+    
 
     int op1= dia;
-    while (op1 == 0 || op1 > 31)
-    {
+    
         switch (op1){
 
-            case 1: strcpy(*d,"Um");
+            case 1: strcpy(d,"Um");
                     break;
-            case 2: strcpy(*d,"Dois");
+            case 2: strcpy(d,"Dois");
                     break;
-            case 3: strcpy(*d,"Tres");
+            case 3: strcpy(d,"Tres");
                     break;
-            case 4: strcpy(*d,"Quatro");
+            case 4: strcpy(d,"Quatro");
                     break;
-            case 5: strcpy(*d,"Cinco");
+            case 5: strcpy(d,"Cinco");
                     break;  
-            case 6: strcpy(*d,"Seis");
+            case 6: strcpy(d,"Seis");
                     break;
-            case 7: strcpy(*d,"Sete");
+            case 7: strcpy(d,"Sete");
                     break;                  
-            case 8: strcpy(*d,"Oito");
+            case 8: strcpy(d,"Oito");
                     break;
-            case 9: strcpy(*d,"Nove");
+            case 9: strcpy(d,"Nove");
                     break;
-            case 10: strcpy(*d,"Dez");
+            case 10: strcpy(d,"Dez");
                     break;
-            case 11: strcpy(*d,"Onze");
+            case 11: strcpy(d,"Onze");
                     break;
-            case 12: strcpy(*d,"Doze");
+            case 12: strcpy(d,"Doze");
                     break;  
-            case 13: strcpy(*d,"Treze");
+            case 13: strcpy(d,"Treze");
                     break;  
-            case 14: strcpy(*d,"Quatorze");
+            case 14: strcpy(d,"Quatorze");
                     break;           
-            case 15: strcpy(*d,"Quinze");
+            case 15: strcpy(d,"Quinze");
                     break; 
-            case 16: strcpy(*d,"Dezesseis");
+            case 16: strcpy(d,"Dezesseis");
                     break;
-            case 17: strcpy(*d,"Dezessete");
+            case 17: strcpy(d,"Dezessete");
                     break;
-            case 18: strcpy(*d,"Dezoito");
+            case 18: strcpy(d,"Dezoito");
                     break;
-            case 19: strcpy(*d,"Dezenove");
+            case 19: strcpy(d,"Dezenove");
                     break;
-            case 20: strcpy(*d,"Vinte");
+            case 20: strcpy(d,"Vinte");
                     break;
-            case 21: strcpy(*d,"Vinte e Um");
+            case 21: strcpy(d,"Vinte e Um");
                     break;
-            case 22: strcpy(*d,"Vinte e Dois");
+            case 22: strcpy(d,"Vinte e Dois");
                     break;
-            case 23: strcpy(*d,"Vinte e Tres");
+            case 23: strcpy(d,"Vinte e Tres");
                     break;
-            case 24: strcpy(*d,"Vinte e Quatro");
+            case 24: strcpy(d,"Vinte e Quatro");
                     break; 
-            case 25: strcpy(*d,"Vinte e Cinco");
+            case 25: strcpy(d,"Vinte e Cinco");
                     break;
-            case 26: strcpy(*d,"Vinte e Seis");
+            case 26: strcpy(d,"Vinte e Seis");
                     break;
-            case 27: strcpy(*d,"Vinte e Sete");
+            case 27: strcpy(d,"Vinte e Sete");
                     break;
-            case 28: strcpy(*d,"Vinte e Oito");
+            case 28: strcpy(d,"Vinte e Oito");
                     break; 
-            case 29: strcpy(*d,"Vinte e Nove");
+            case 29: strcpy(d,"Vinte e Nove");
                     break;
-            case 30: strcpy(*d,"Trinta");
+            case 30: strcpy(d,"Trinta");
                     break;
-            case 31: strcpy(*d,"Trinta e Um");
+            case 31: strcpy(d,"Trinta e Um");
                     break;
 
         }
-    }
+    
     
     
 
