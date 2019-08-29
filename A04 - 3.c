@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 10
+#define TAM 2
 
 void maior(int vetor[],int * maiorInd){
 
@@ -16,23 +16,26 @@ void maior(int vetor[],int * maiorInd){
 int main(){
 
     int *vetor = NULL;
-    int maiorInd;
+    int maiorI;
 
     vetor = (int *) malloc (TAM* sizeof(int));
 
     printf("Elementos de um vetor: \n");
 
     for(int i=0;i < TAM;i++){
-        vetor[i] = i+29;
+        vetor[i] = i+2;
         printf("\n");
     
 
     for(int i=0;i < TAM; i++){
+
             printf("Vetor %d = %d \n",i, vetor[i]);
             free(vetor);
+
+            maior(vetor,&maiorI);
+            printf("\n Maior elemento é o vetor [%d] : %d \n",i,maiorI);
+
     }
 }
-    maior(vetor,&maiorInd);
-    printf("\n Maior elemento é: ",&maiorInd);
+    
 }
-
